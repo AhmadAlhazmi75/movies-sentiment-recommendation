@@ -10,13 +10,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #e50914;
+  background: #cec5c5;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
+  background: #cec5c5;
 }
 
 .movie {
@@ -60,7 +60,7 @@
 
 .footer {
   color: #e4e0e0;
-  background-color: #e50914d1;
+  background-color: #cec5c5;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -73,7 +73,7 @@
 
 h1 {
   font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #e50914;
+  color: #cec5c5;
   font-weight: bold;
   margin-top: 30px;
   text-shadow: #000000 0px 0px 13px;
@@ -86,7 +86,7 @@ h1 {
 .fa-arrow-up {
   font-size: 1.5em;
   color: #ffffff;
-  background: #e50914;
+  background: #000000;
   padding: 10px;
   border-radius: 50%;
   float: right;
@@ -121,6 +121,10 @@ h1 {
 
 #autoComplete {
   background-position: 98%;
+}
+
+::placeholder{
+  color: #cec5c5 !important;
 }
 
 #name {
@@ -176,7 +180,7 @@ h6 {
   .fa-arrow-up {
     font-size: 1em;
     color: #ffffff;
-    background: #e50914;
+    background: #cec5c5;
     padding: 10px;
     border-radius: 50%;
     float: right;
